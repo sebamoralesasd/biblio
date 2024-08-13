@@ -16,7 +16,7 @@ def papers
 end
 
 def paper_title(data)
-  "1. #{data['title']}. [#{data['author']} (#{data['year']})](#{data['link']})"
+  "1. #{data['title']}. **[#{data['author']} (#{data['year']})](#{data['link']})**"
 end
 
 def readme(papers_string)
